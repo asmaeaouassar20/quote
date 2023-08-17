@@ -11,11 +11,11 @@
 <body>
     <div class="quote">
 
-        <h1>algostyle</h1>
+        <h1 id="H1" onmouseleave="removeCOLORH1()" onmouseover="coloringH1()">algostyle</h1>
         <p>I'd rather die chasing my dreams than give up</p>
         <div class="reaction">
-            <button id="plus">+</button>
-            <button id="minus">-</button>
+            <button onclick="add_like()" id="plus">+</button>
+            <button onclick="add_dont_like()" id="minus">-</button>
         </div>
 
         <div class="number_react">
