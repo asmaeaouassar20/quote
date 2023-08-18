@@ -1,5 +1,10 @@
-function add_like(){}
-function add_dont_like(){}
+function add_like(){
+    document.getElementById('number_like').innerHTML=+ document.getElementById('number_like').innerHTML+ +1;
+}
+
+function add_dont_like(){
+    document.getElementById('number_no_like').innerHTML=+ document.getElementById('number_no_like').innerHTML+ +1;
+}
 
 
 function coloringH1(){
